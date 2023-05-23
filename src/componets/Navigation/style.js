@@ -5,6 +5,25 @@ export const NavigationWrapper = styled.div`
 display: flex;
 justify-content: space-between;
 padding-top: 1rem;
+padding-bottom: 0.5rem;
+
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        box-shadow: rgba(6,5,50,0.1) 0px 0px 30px;
+
+    }
+
 `
 
 export const Logo = styled.div`

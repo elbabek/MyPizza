@@ -63,4 +63,55 @@ export const SliderItemsData = [
         scr: "https://i.ytimg.com/vi/KFrO7n4ogNk/maxresdefault.jpg"
     }
 ]
+
+export const PizzaData = [
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/8786199fb5514be78be3de001cdaee9b_366x366.webp',
+        name: 'Пицца Миксик',
+        desc: 'Пицца четвертинками с ветчиной, цыпленком, томатами, брынзой, моцареллой, фирменным соусом альфредо',
+        price: 495
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/e3f5dfcb094b4c9b8200ca9f573cb2f1_366x366.webp',
+        name: 'Пицца из половинок',
+        desc: 'Соберите свою пиццу 35 см с двумя разными вкусами',
+        price: 670
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_366x366.webp',
+        name: 'Пицца от шефа',
+        desc: 'Пастрами из мраморной говядины, сладкий перец, томаты, красный лук, чеснок, соус ткемали, моцарелла, фирменный томатный соус',
+        price: 689
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/0d033c8eb9b24b21828d2fdb7dc3246d_366x366.webp',
+        name: 'Пицца мексико',
+        desc: 'Фирменный соус альфредо, цыпленок, моцарелла, ананасы',
+        price: 439
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/0d033c8eb9b24b21828d2fdb7dc3246d_366x366.webp',
+        name: 'Пицца мексико',
+        desc: 'Фирменный соус альфредо, цыпленок, моцарелла, ананасы',
+        price: 439
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/0d033c8eb9b24b21828d2fdb7dc3246d_366x366.webp',
+        name: 'Пицца мексико',
+        desc: 'Фирменный соус альфредо, цыпленок, моцарелла, ананасы',
+        price: 439
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/0d033c8eb9b24b21828d2fdb7dc3246d_366x366.webp',
+        name: 'Пицца мексико',
+        desc: 'Фирменный соус альфредо, цыпленок, моцарелла, ананасы',
+        price: 439
+    },
+    {
+        img: 'https://dodopizza-a.akamaihd.net/static/Img/Products/0d033c8eb9b24b21828d2fdb7dc3246d_366x366.webp',
+        name: 'Пицца мексико',
+        desc: 'Фирменный соус альфредо, цыпленок, моцарелла, ананасы',
+        price: 439
+    },
+]
         

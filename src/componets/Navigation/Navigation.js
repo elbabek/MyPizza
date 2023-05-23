@@ -15,6 +15,7 @@ const Navigation = ()=>{
                    <img className="logo" src={logo}/>
                 </Logo>
                 <Anchor
+                    affix = {false}
                     direction="horizontal"
                     items={NavItems}
                     className="linkNavigation"

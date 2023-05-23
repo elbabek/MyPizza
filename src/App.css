@@ -5,7 +5,11 @@
 }
 
 .ant-anchor-link-title-active {
-    color: gold!important;
+    color: rgb(255, 105, 0)!important;
+}
+
+.ant-anchor-link-title-active:hover {
+    color: rgb(255, 105, 0) !important;
 }
 
 .ant-anchor-ink{
@@ -19,6 +23,8 @@
 .linkNavigation::before{
     border-bottom: none!important;
 }
+
+
 
 .mainLogo{
     width: 65px;

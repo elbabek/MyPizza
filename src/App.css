@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.mainContainer{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-anchor-link-title-active {
+    color: gold!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-anchor-ink{
+   display: none!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-anchor-wrapper {
+    border-bottom: none!important;
 }
 
-.App-link {
-  color: #61dafb;
+.linkNavigation::before{
+    border-bottom: none!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainLogo{
+    width: 65px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    background-image:cover;
+    cursor: pointer;
+}
+
+.color{
+    color: rgb(255, 105, 0);
+}
+
+.number:hover{
+color: rgb(255, 105, 0);
+cursor: pointer;
+
+}
+
+.slick-slide > div{
+    display: flex;
+    gap: 15px;
 }

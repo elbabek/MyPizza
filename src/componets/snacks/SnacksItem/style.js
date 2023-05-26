@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import styled from "styled-components";
 
-export const PizzaWrapper = styled.div`
+export const KomboWrapper = styled.div`
 display: flex;
 flex-direction: column;
 `
@@ -32,8 +32,8 @@ font-weight: bold;
 `
 
 export const CartButton = styled(Button)`
-color: white;
-background-color:rgb(255, 105, 0);
+background-color: rgb(255, 240, 230);
+    color: rgb(209, 87, 0);
     height: 40px;
     padding: 8px 20px;
     font-size: 16px;
@@ -49,4 +49,3 @@ background-color:rgb(255, 105, 0);
     color: white;
 }
 `
-

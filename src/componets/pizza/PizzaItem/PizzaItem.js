@@ -12,7 +12,6 @@ import {
 const PizzaItem = ({pizza})=> {
   return (
       <PizzaWrapper>
-        
         <ImgBlock src={pizza.img} alt=''/>
          <NameBlock>
               {pizza.name}
@@ -31,7 +30,7 @@ const PizzaItem = ({pizza})=> {
       </PizzaWrapper>
   )
 }
-export default PizzaItem
+export default PizzaItem;
 
 
 

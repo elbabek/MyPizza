@@ -16,10 +16,12 @@ const Header = ()=>{
         <HeaderWrapper>
          <HEaderRightBlock>
             <Logo>
+                    <a href="http://localhost:3000/">
                 <span>
                 <img className="mainLogo" src={logo}/>
                 My pizza
                 </span>
+                    </a>
             </Logo>
             <Destination>
                     <div>Доставка пиццы <span className="color">Бишкек</span></div>
@@ -28,7 +30,7 @@ const Header = ()=>{
                     </span>
             </Destination>
             <Call>
-                <div className="number">0700 64 04 57</div>
+                    <div className="number"><a href="tel:+996700640457">0700 64 04 57</a></div>
                 <div>Звонок бесплатный</div>
             </Call>
          </HEaderRightBlock>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Title = styled.h2`
-fonst-size: 26px;
+fonst-size: 26px;   
 `
 
 export const PizzaContainer = styled.div`

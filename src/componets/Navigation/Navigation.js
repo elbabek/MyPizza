@@ -12,7 +12,9 @@ const Navigation = ()=>{
         <NavigationWrapper>
             <RightNavigation>
                 <Logo>
+                    <a href="http://localhost:3000/">
                    <img className="logo" src={logo}/>
+                    </a>
                 </Logo>
                 <Anchor
                     affix = {false}

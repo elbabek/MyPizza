@@ -24,8 +24,6 @@
     border-bottom: none!important;
 }
 
-
-
 .mainLogo{
     width: 65px;
     height: 55px;
@@ -43,7 +41,7 @@
     color: rgb(255, 105, 0);
 }
 
-.number:hover{
+.number a:hover{
 color: rgb(255, 105, 0);
 cursor: pointer;
 
@@ -52,4 +50,44 @@ cursor: pointer;
 .slick-slide > div{
     display: flex;
     gap: 15px;
+}
+
+.ldBUuw{
+    cursor: pointer;
+}
+
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.jOzVyd > div{
+display: flex;
+flex-wrap: wrap;
+}
+
+.cowYVR>div{
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.daivDX>div{
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.hcKUZy>div{
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.eWHjRa>div{
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

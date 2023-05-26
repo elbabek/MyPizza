@@ -5,8 +5,8 @@ export const NavigationWrapper = styled.div`
 display: flex;
 justify-content: space-between;
 padding-top: 1rem;
-padding-bottom: 0.5rem;
-
+padding-bottom: 1rem;
+font-weight: 500!important;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -19,11 +19,9 @@ padding-bottom: 0.5rem;
         left: 0px;
         top: 0px;
         width: 100%;
-        height: 100%;
+        // height: 100%;
         box-shadow: rgba(6,5,50,0.1) 0px 0px 30px;
-
     }
-
 `
 
 export const Logo = styled.div`
